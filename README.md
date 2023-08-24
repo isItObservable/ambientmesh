@@ -35,7 +35,7 @@ cloudprofiler.googleapis.com \
 ```shell
 ZONE=europe-west3-a
 NAME=isitobservable-ambientmesh
-gcloud container clusters create ${NAME} --zone=${ZONE} --machine-type=e2-standard-8 --num-nodes=2
+gcloud container clusters create ${NAME} --zone=${ZONE} --machine-type=e2-standard-4 --num-nodes=2
 ```
 
 ## Getting started
